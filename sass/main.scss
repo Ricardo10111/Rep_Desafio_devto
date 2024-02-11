@@ -1,1 +1,8 @@
-// File sass
+@import 'nav';
+@import 'layout';
+@import 'global';
+@import 'aside1';
+
+body {
+    background-color: rgb( 245, 245, 245, 1 );
+}

@@ -1,0 +1,123 @@
+.containerMain {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+
+    .aside {
+        // border: 1px solid black;
+        height: 100vh;
+        width: 100%;
+        // margin-left: 100px;
+        display: none;
+
+
+    }
+
+    .aside2{
+        // border: 1px solid black;
+        height: 100vh;
+        width: 100%;
+        // margin-right: 100px;
+        display: none;
+
+
+    }
+
+     .mainContainer  {
+        // border: 1px solid black;
+        height: 100vh;
+        width: 100%;
+        margin: 0;
+    
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    .containerMain {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    
+        .aside {
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+            align-items: center;
+            padding-left: 40px;
+    
+            // border: 1px solid black;
+            height: 100vh;
+            width: 60%;
+            display: block;
+    
+    
+        }
+    
+        .aside2{
+            // border: 1px solid black;
+            height: 100vh;
+            width: 50%;
+            // margin-right: 100px;
+            display: none;
+
+    
+    
+        }
+    
+         .mainContainer  {
+            // border: 1px solid black;
+            height: 100vh;
+            width: 100%;
+        
+        }
+    }
+}
+
+@media screen and (min-width:1440px) {
+
+    .containerMain {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    
+        .aside {
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+            align-items: center;
+            padding-left: 40px;
+    
+            // border: 1px solid black;
+            height: 100vh;
+            width: 40%;
+            // margin-left: 100px;
+            display: block;
+    
+    
+        }
+    
+        .aside2{
+            // border: 1px solid black;
+            height: 100vh;
+            width: 50%;
+            // margin-right: 100px;
+            display: block;
+
+    
+    
+        }
+    
+         .mainContainer  {
+            // border: 1px solid black;
+            height: 100vh;
+            width: 100%;
+        
+        }
+    }
+}
