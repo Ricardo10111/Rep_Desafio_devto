@@ -178,6 +178,8 @@ html {
   text-align: center;
 }
 
+<<<<<<< HEAD
+=======
 .secondNav {
   display: block;
   justify-content: center;
@@ -210,6 +212,7 @@ html {
   cursor: pointer;
 }
 
+>>>>>>> development
 body {
   background-color: rgb(245, 245, 245);
 }/*# sourceMappingURL=main.css.map */
