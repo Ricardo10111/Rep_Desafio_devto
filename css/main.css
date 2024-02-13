@@ -178,8 +178,6 @@ html {
   text-align: center;
 }
 
-<<<<<<< HEAD
-=======
 .secondNav {
   display: block;
   justify-content: center;
@@ -212,7 +210,118 @@ html {
   cursor: pointer;
 }
 
->>>>>>> development
+.containerAsideSocialMedia {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.conteinerAsideScroll {
+  margin-top: 20px;
+}
+
+.conteinerScroll {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 30px;
+  max-height: 42vh;
+  overflow-y: auto;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.conteinerScroll .bar-element {
+  width: 95%;
+}
+.conteinerScroll .bar-element:hover {
+  background-color: rgb(47, 58, 178);
+}
+.conteinerScroll .bar-element .aElement {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+.aside2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container-right {
+  border: 3px solid rgb(228, 225, 228);
+  background-color: white;
+  margin: 0px 80px 20px 20px;
+  border-radius: 10px;
+}
+
+.discuss {
+  padding: 10px 25px 10px 25px;
+}
+.discuss .themes {
+  border-bottom: 1px solid rgb(205, 202, 202);
+  margin: 15px 0px 15px 0px;
+}
+.discuss .themes a {
+  text-decoration: none;
+  color: black;
+}
+.discuss .themes a:hover {
+  color: blue;
+}
+.discuss .themes a:hover p {
+  color: black;
+}
+.discuss .themes h3 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.discuss .themes p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.discuss .sinBorde {
+  border: none;
+}
+
+.container-guides {
+  margin: 0px 80px 20px 20px;
+  border-radius: 10px;
+  padding: 10px 25px 10px 25px;
+}
+.container-guides .container-trending {
+  margin: 15px 0px 15px 0px;
+}
+.container-guides .container-trending h3 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.container-guides .guides {
+  padding-left: 25px;
+}
+.container-guides .guides p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: black;
+}
+.container-guides .guides a {
+  text-decoration: none;
+}
+.container-guides .guides div:hover {
+  background-color: white;
+  color: blue;
+}
+.container-guides .guides p:hover {
+  color: blue;
+}
+.container-guides hr {
+  margin: 25px 0px -25px 0px;
+}
+
+#title-section-trending {
+  font-family: "Courier New", Courier, monospace;
+}
+
 body {
   background-color: rgb(245, 245, 245);
 }/*# sourceMappingURL=main.css.map */
