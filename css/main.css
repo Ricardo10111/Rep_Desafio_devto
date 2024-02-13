@@ -4,19 +4,16 @@
   flex-wrap: nowrap;
 }
 .containerMain .aside {
-  border: 1px solid black;
   height: 100vh;
   width: 100%;
   display: none;
 }
 .containerMain .aside2 {
-  border: 1px solid black;
   height: 100vh;
   width: 100%;
   display: none;
 }
 .containerMain .mainContainer {
-  border: 1px solid black;
   height: 100vh;
   width: 100%;
   margin: 0;
@@ -179,6 +176,38 @@ html {
 .containerAside1 .blockAside1 #pLogIn {
   margin: 1px 0px;
   text-align: center;
+}
+
+.secondNav {
+  display: block;
+  justify-content: center;
+  margin-top: 3em;
+  margin-bottom: 10px;
+  padding: 0.5rem 1rem;
+}
+.secondNav h2 {
+  padding-bottom: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.secondNav .listNavSecond {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 1em;
+}
+.secondNav .c-link {
+  background-color: transparent;
+  text-decoration: none;
+  color: black;
+}
+.secondNav .c-link:hover {
+  background-color: rgb(47, 58, 178);
+  -webkit-text-decoration: underline white;
+          text-decoration: underline white;
+  color: white;
+  border-radius: 0.375rem;
+  border: 1px solid rgb(59, 73, 223);
+  cursor: pointer;
 }
 
 body {
