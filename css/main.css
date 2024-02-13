@@ -210,6 +210,39 @@ html {
   cursor: pointer;
 }
 
+.containerAsideSocialMedia {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.conteinerAsideScroll {
+  margin-top: 20px;
+}
+
+.conteinerScroll {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 30px;
+  max-height: 42vh;
+  overflow-y: auto;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.conteinerScroll .bar-element {
+  width: 95%;
+}
+.conteinerScroll .bar-element:hover {
+  background-color: rgb(47, 58, 178);
+}
+.conteinerScroll .bar-element .aElement {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
 .aside2 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
