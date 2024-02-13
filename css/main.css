@@ -322,6 +322,22 @@ html {
   font-family: "Courier New", Courier, monospace;
 }
 
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 10px 10px;
+  padding: 20px;
+}
+
+.navMainContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
 body {
   background-color: rgb(245, 245, 245);
 }/*# sourceMappingURL=main.css.map */
