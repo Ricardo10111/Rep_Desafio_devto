@@ -438,6 +438,8 @@ html {
 }
 .engagementsPostOne .savePostOneBottom button {
   padding: 5px;
+  background-color: white;
+  border: none;
 }
 
 body {
