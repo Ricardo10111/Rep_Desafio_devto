@@ -1,7 +1,122 @@
+.header {
+  background: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 54px;
+  z-index: 2;
+}
+
+.header .logo {
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.nav {
+  padding: 8px;
+  margin: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 55%;
+}
+
+.clickhere {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.lupita {
+  margin: 8px;
+  cursor: pointer;
+}
+
+.buttonLogIn {
+  /*same color header*/
+  border: transparent;
+  border-radius: 4px;
+  color: rgb(59, 57, 57); /*grey - black */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  transition: all 0.3 ease;
+  display: none;
+  margin: 8px;
+}
+
+.buttonLogIn:hover {
+  background-color: rgb(124, 170, 170);
+  text-decoration: underline;
+}
+
+.buttonCreateAccount {
+  background-color: white; /*same color than header*/
+  border: 1px solid;
+  border-radius: 4px;
+  color: rgb(21, 21, 194); /*grey - black */
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  justify-content: flex-end;
+}
+
+.buttonCreateAccount:hover {
+  background-color: rgb(21, 21, 194);
+  text-decoration: underline;
+  color: azure;
+}
+
+.logo {
+  padding: 8px;
+  margin: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.burguer {
+  margin: 8px;
+  display: block;
+}
+
+.logotype {
+  margin: 8px;
+}
+
+.searchInput {
+  margin: 8px;
+  font-size: 18px;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .burguer {
+    display: none;
+  }
+  .buttonLogIn {
+    display: block;
+  }
+  .searchInput {
+    display: block;
+  }
+}
 .containerMain {
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
+  margin-top: 60px;
 }
 .containerMain .aside {
   height: 100vh;
@@ -17,6 +132,8 @@
   height: 100vh;
   width: 100%;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
@@ -366,6 +483,27 @@ html {
 
 #title-section-trending {
   font-family: "Courier New", Courier, monospace;
+}
+
+.crayons-tag {
+  --tag-bg: rgba(113, 234, 139, 0.10);
+  --tag-prefix: #71EA8B;
+  --tag-bg-hover: rgba(113, 234, 139, 0.10);
+  --tag-prefix-hover: #71EA8B;
+}
+
+.crayons-tag__prefix {
+  --tag-bg: rgba(246, 41, 140, 0.10);
+  --tag-prefix: #F6298C;
+  --tag-bg-hover: rgba(246, 41, 140, 0.10);
+  --tag-prefix-hover: #F6298C;
+}
+
+.crayons-tag__prefix1 {
+  --tag-bg: rgba(208, 236, 255, 0.10);
+  --tag-prefix: #D0ECFF;
+  --tag-bg-hover: rgba(208, 236, 255, 0.10);
+  --tag-prefix-hover: #D0ECFF;
 }
 
 .mainContainerPostOne {
