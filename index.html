@@ -2,62 +2,69 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="autor" content="Ricardo Lopez">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8" />
+    <meta name="autor" content="Ricardo Lopez" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
     <title>Sitio Web_ Git</title>
 </head>
 
 <body>
-
     <!-- Sección de Adolfo y Maria -->
 
-    <header>
-        <nav>
-            <div class="containerNav">
-
-                <a href=""><img
-                        src="https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png"
-                        alt=""></a>
-                <input type="search">
-                <button type="submit"></button>
-                <ul>
-                    <li class="listInside"><a href="#">Log in</a></li>
-                    <li class="listInside"><a href="#">Create account</a></li>
-                </ul>
-            </div>
+    <header class="header">
+        <div class="logo">
+            <svg class="burguer" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                role="img" aria-labelledby="am4j3y639em2q45gwxeb9ung7s1s7lck" class="crayons-icon">
+                <title id="am4j3y639em2q45gwxeb9ung7s1s7lck">Navigation menu</title>
+                <path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"></path>
+            </svg>
+            <img class="logotype" width="40" height="40"
+                src="https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png"
+                alt="logoPricipal" />
+            <input class="searchInput" type="text" placeholder="Search..." />
+        </div>
+        <nav class="nav">
+            <svg class="lupita" xmlns="http://www.w3.org/2000/svg" width="32" height="32" margin="8" viewBox="0 0 24 24"
+                role="img" aria-labelledby="ai4tf73728ejslttki3938fwc5z4noxd" class="crayons-icon">
+                <title id="ai4tf73728ejslttki3938fwc5z4noxd">Search</title>
+                <path
+                    d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0111 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 01-1.969 5.617zm-2.006-.742A6.977 6.977 0 0018 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 004.875-1.975l.15-.15z">
+                </path>
+            </svg>
+            <ul class="clickhere">
+                <a href="#" class="btn"><button class="buttonLogIn">Log In</button></a>
+                <a href="#" class="btn"><button class="buttonCreateAccount">Create account</button></a>
+            </ul>
         </nav>
     </header>
 
     <section>
         <div class="containerMain">
-
             <!-- Sección Ricardo -->
-
 
             <div class="aside">
                 <div class="containerAside1">
                     <div class="textInside">
-                        <h2 class="pBold">DEV Community is a community of 1,264,529 amazing developers</h2>
+                        <h2 class="pBold">
+                            DEV Community is a community of 1,264,529 amazing developers
+                        </h2>
                     </div>
                     <div class="textInside_2">
-                        <p>We're a place where coders share, stay up-to-date and grow their careers.</p>
+                        <p>
+                            We're a place where coders share, stay up-to-date and grow their
+                            careers.
+                        </p>
                     </div>
 
                     <div class="btnInside">
-
                         <div class="aInside">
-                            <a class="aCAccount" href="">Create acount</a><br>
-
+                            <a class="aCAccount" href="">Create acount</a><br />
                         </div>
                         <div class="aLogIn">
                             <a class="pLogIn">Log in</a>
-
                         </div>
                     </div>
-
-
                 </div>
 
                 <nav class="secondNav">
@@ -84,8 +91,7 @@
                                                 d="M37.5 37.5A1.5 1.5 0 0136 39H8a1.5 1.5 0 010-3h28a1.5 1.5 0 011.5 1.5z">
                                             </path>
                                         </g>
-                                    </svg>
-                                </span>Home
+                                    </svg> </span>Home
                             </a>
                         </li>
                         <li>
@@ -125,8 +131,7 @@
                                                 d="M27 31a1 1 0 01-1 1h-8a1 1 0 01-1-1v-3a1 1 0 011-1h8a1 1 0 011 1v3z">
                                             </path>
                                         </g>
-                                    </svg>
-                                </span>Reading List
+                                    </svg> </span>Reading List
                             </a>
                         </li>
                         <li>
@@ -160,8 +165,7 @@
                                                 d="M34 18a1 1 0 00-1 1v2c0 6.074-4.925 11-11 11s-11-4.926-11-11v-2a1 1 0 00-2 0v2c0 7.18 5.82 13 13 13s13-5.82 13-13v-2a1 1 0 00-1-1z">
                                             </path>
                                         </g>
-                                    </svg>
-                                </span>Podcasts
+                                    </svg> </span>Podcasts
                             </a>
                         </li>
                         <li>
@@ -178,8 +182,7 @@
                                                 d="M24 27a2 2 0 00-2-2H11a2 2 0 00-2 2v6a2 2 0 002 2h11a2 2 0 002-2v-6z">
                                             </path>
                                         </g>
-                                    </svg>
-                                </span>Videos
+                                    </svg> </span>Videos
                             </a>
                         </li>
                         <li>
@@ -197,8 +200,7 @@
                                                 d="M12.507 14.501a1 1 0 11-1.415-1.414l8.485-8.485a1 1 0 111.415 1.414l-8.485 8.485z">
                                             </path>
                                         </g>
-                                    </svg>
-                                </span>Tags
+                                    </svg> </span>Tags
                             </a>
                         </li>
                         <li>
@@ -221,8 +223,7 @@
                                                 d="M15.999 36a1 1 0 01-.163-1.986l12-2a.994.994 0 011.15.822.999.999 0 01-.822 1.15l-12 2a.927.927 0 01-.165.014zm0-4a1 1 0 01-.163-1.986l12-2a.995.995 0 011.15.822.999.999 0 01-.822 1.15l-12 2a.927.927 0 01-.165.014z">
                                             </path>
                                         </g>
-                                    </svg>
-                                </span>FAQ
+                                    </svg> </span>FAQ
                             </a>
                         </li>
                         <li>
@@ -239,8 +240,7 @@
                                         </path>
                                         <path fill="#744EAA" d="M15 13l2 2 2-2 2 2 2-2 2 2 2-2 2 2 2-2 2 2 2-2v23H15z">
                                         </path>
-                                    </svg>
-                                </span>Forem Shop
+                                    </svg> </span>Forem Shop
                             </a>
                         </li>
                         <li>
@@ -250,8 +250,7 @@
                                         <path fill="#DD2E44"
                                             d="M39.885 15.833c0-5.45-4.418-9.868-9.867-9.868-3.308 0-6.227 1.633-8.018 4.129-1.791-2.496-4.71-4.129-8.017-4.129-5.45 0-9.868 4.417-9.868 9.868 0 .772.098 1.52.266 2.241C5.751 26.587 15.216 35.568 22 38.034c6.783-2.466 16.249-11.447 17.617-19.959.17-.721.268-1.469.268-2.242z">
                                         </path>
-                                    </svg>
-                                </span>Advertise on DEV
+                                    </svg> </span>Advertise on DEV
                             </a>
                         </li>
                         <li>
@@ -295,8 +294,7 @@
                                                 </path>
                                             </g>
                                         </g>
-                                    </svg>
-                                </span>About
+                                    </svg> </span>About
                             </a>
                         </li>
                         <li>
@@ -314,8 +312,7 @@
                                                 d="M10 29.924s-5.188-.812-5 1 5-1 5-1zm0 .312s-4.125 2.688-2.938 3.75S10 30.236 10 30.236z">
                                             </path>
                                         </g>
-                                    </svg>
-                                </span>Contact
+                                    </svg> </span>Contact
                             </a>
                         </li>
                         <li>
@@ -328,50 +325,67 @@
                                                     <g transform="translate(33,30)" id="g22">
                                                         <path
                                                             d="m 0,0 -28,0 c -2.209,0 -4,-1.791 -4,-4 l 0,-15 c 0,-2.209 1.791,-4 4,-4 l 11.416,0 c 0.52,-0.596 1.477,-1 2.584,-1 1.107,0 2.064,0.404 2.584,1 L 0,-23 c 2.209,0 4,1.791 4,4 L 4,-4 C 4,-1.791 2.209,0 0,0"
-                                                            id="path24"
-                                                            style="fill:#226699;fill-opacity:1;fill-rule:nonzero;stroke:none">
-                                                        </path>
+                                                            id="path24" style="
+                                  fill: #226699;
+                                  fill-opacity: 1;
+                                  fill-rule: nonzero;
+                                  stroke: none;
+                                "></path>
                                                     </g>
                                                     <g transform="translate(21,10)" id="g26">
                                                         <path
                                                             d="m 0,0 c 0,-1.104 -0.896,-2 -2,-2 -1.104,0 -2,0.896 -2,2 l 0,18 c 0,1.104 0.896,2 2,2 1.104,0 2,-0.896 2,-2 L 0,0 z"
-                                                            id="path28"
-                                                            style="fill:#292f33;fill-opacity:1;fill-rule:nonzero;stroke:none">
-                                                        </path>
+                                                            id="path28" style="
+                                  fill: #292f33;
+                                  fill-opacity: 1;
+                                  fill-rule: nonzero;
+                                  stroke: none;
+                                "></path>
                                                     </g>
                                                     <g transform="translate(19,11)" id="g30">
                                                         <path
                                                             d="m 0,0 c 0,-1.104 -0.896,-2 -2,-2 l -12,0 c -1.104,0 -2,0.896 -2,2 l 0,18 c 0,1.104 0.896,2 2,2 l 12,0 c 1.104,0 2,-0.896 2,-2 L 0,0 z"
-                                                            id="path32"
-                                                            style="fill:#99aab5;fill-opacity:1;fill-rule:nonzero;stroke:none">
-                                                        </path>
+                                                            id="path32" style="
+                                  fill: #99aab5;
+                                  fill-opacity: 1;
+                                  fill-rule: nonzero;
+                                  stroke: none;
+                                "></path>
                                                     </g>
                                                     <g transform="translate(19,11)" id="g34">
                                                         <path
                                                             d="m 0,0 c -0.999,1.998 -3.657,2 -4,2 -2,0 -5,-2 -8,-2 -1,0 -2,0.896 -2,2 l 0,16 c 0,1.104 1,2 2,2 3.255,0 6,2 8,2 3,0 4,-1.896 4,-3 L 0,0 z"
-                                                            id="path36"
-                                                            style="fill:#e1e8ed;fill-opacity:1;fill-rule:nonzero;stroke:none">
-                                                        </path>
+                                                            id="path36" style="
+                                  fill: #e1e8ed;
+                                  fill-opacity: 1;
+                                  fill-rule: nonzero;
+                                  stroke: none;
+                                "></path>
                                                     </g>
                                                     <g transform="translate(35,11)" id="g38">
                                                         <path
                                                             d="m 0,0 c 0,-1.104 -0.896,-2 -2,-2 l -12,0 c -1.104,0 -2,0.896 -2,2 l 0,18 c 0,1.104 0.896,2 2,2 l 12,0 c 1.104,0 2,-0.896 2,-2 L 0,0 z"
-                                                            id="path40"
-                                                            style="fill:#99aab5;fill-opacity:1;fill-rule:nonzero;stroke:none">
-                                                        </path>
+                                                            id="path40" style="
+                                  fill: #99aab5;
+                                  fill-opacity: 1;
+                                  fill-rule: nonzero;
+                                  stroke: none;
+                                "></path>
                                                     </g>
                                                     <g transform="translate(19,11)" id="g42">
                                                         <path
                                                             d="m 0,0 c 0.999,1.998 3.657,2 4,2 2,0 5,-2 8,-2 1,0 2,0.896 2,2 l 0,16 c 0,1.104 -1,2 -2,2 C 8.744,20 6,22 4,22 1,22 0,20.104 0,19 L 0,0 z"
-                                                            id="path44"
-                                                            style="fill:#ccd6dd;fill-opacity:1;fill-rule:nonzero;stroke:none">
-                                                        </path>
+                                                            id="path44" style="
+                                  fill: #ccd6dd;
+                                  fill-opacity: 1;
+                                  fill-rule: nonzero;
+                                  stroke: none;
+                                "></path>
                                                     </g>
                                                 </g>
                                             </g>
                                         </g>
-                                    </svg>
-                                </span>Guides
+                                    </svg> </span>Guides
                             </a>
                         </li>
                         <li>
@@ -382,52 +396,72 @@
                                             <g id="g12">
                                                 <g clip-path="url(#clipPath16)" id="g14">
                                                     <g transform="translate(2,20)" id="g20">
-                                                        <path id="path22"
-                                                            style="fill:#ffcc4d;fill-opacity:1;fill-rule:nonzero;stroke:none"
-                                                            d="m 0,0 c 0,-8.837 7.164,-16 16,-16 8.837,0 16,7.163 16,16 C 32,8.836 24.837,16 16,16 7.164,16 0,8.836 0,0">
+                                                        <path id="path22" style="
+                                  fill: #ffcc4d;
+                                  fill-opacity: 1;
+                                  fill-rule: nonzero;
+                                  stroke: none;
+                                " d="m 0,0 c 0,-8.837 7.164,-16 16,-16 8.837,0 16,7.163 16,16 C 32,8.836 24.837,16 16,16 7.164,16 0,8.836 0,0">
                                                         </path>
                                                     </g>
                                                     <g transform="translate(15.4063,25.5)" id="g24">
-                                                        <path id="path26"
-                                                            style="fill:#664500;fill-opacity:1;fill-rule:nonzero;stroke:none"
-                                                            d="m 0,0 c 0,-1.381 -0.896,-2.5 -2,-2.5 -1.104,0 -2,1.119 -2,2.5 0,1.38 0.896,2.5 2,2.5 1.104,0 2,-1.12 2,-2.5">
+                                                        <path id="path26" style="
+                                  fill: #664500;
+                                  fill-opacity: 1;
+                                  fill-rule: nonzero;
+                                  stroke: none;
+                                " d="m 0,0 c 0,-1.381 -0.896,-2.5 -2,-2.5 -1.104,0 -2,1.119 -2,2.5 0,1.38 0.896,2.5 2,2.5 1.104,0 2,-1.12 2,-2.5">
                                                         </path>
                                                     </g>
                                                     <g transform="translate(26,24.5)" id="g28">
-                                                        <path id="path30"
-                                                            style="fill:#664500;fill-opacity:1;fill-rule:nonzero;stroke:none"
-                                                            d="m 0,0 c 0,-1.381 -0.895,-2.5 -2,-2.5 -1.104,0 -2,1.119 -2,2.5 0,1.38 0.896,2.5 2,2.5 1.105,0 2,-1.12 2,-2.5">
+                                                        <path id="path30" style="
+                                  fill: #664500;
+                                  fill-opacity: 1;
+                                  fill-rule: nonzero;
+                                  stroke: none;
+                                " d="m 0,0 c 0,-1.381 -0.895,-2.5 -2,-2.5 -1.104,0 -2,1.119 -2,2.5 0,1.38 0.896,2.5 2,2.5 1.105,0 2,-1.12 2,-2.5">
                                                         </path>
                                                     </g>
                                                     <g transform="translate(9.6709,29.667)" id="g32">
-                                                        <path id="path34"
-                                                            style="fill:#664500;fill-opacity:1;fill-rule:nonzero;stroke:none"
-                                                            d="M 0,0 C -0.164,0.087 -0.303,0.223 -0.391,0.398 -0.607,0.827 -0.431,1.325 0.002,1.511 4.268,3.341 7.701,1.554 7.845,1.477 8.278,1.246 8.453,0.729 8.236,0.323 8.02,-0.082 7.496,-0.223 7.063,0.005 6.94,0.069 4.231,1.437 0.785,-0.042 0.528,-0.151 0.238,-0.127 0,0">
+                                                        <path id="path34" style="
+                                  fill: #664500;
+                                  fill-opacity: 1;
+                                  fill-rule: nonzero;
+                                  stroke: none;
+                                " d="M 0,0 C -0.164,0.087 -0.303,0.223 -0.391,0.398 -0.607,0.827 -0.431,1.325 0.002,1.511 4.268,3.341 7.701,1.554 7.845,1.477 8.278,1.246 8.453,0.729 8.236,0.323 8.02,-0.082 7.496,-0.223 7.063,0.005 6.94,0.069 4.231,1.437 0.785,-0.042 0.528,-0.151 0.238,-0.127 0,0">
                                                         </path>
                                                     </g>
                                                     <g transform="translate(14.7427,16.4277)" id="g36">
-                                                        <path id="path38"
-                                                            style="fill:#664500;fill-opacity:1;fill-rule:nonzero;stroke:none"
-                                                            d="M 0,0 C -0.136,0.127 -0.236,0.293 -0.276,0.486 -0.375,0.955 -0.078,1.392 0.389,1.46 4.981,2.138 7.841,-0.469 7.962,-0.58 8.322,-0.914 8.357,-1.457 8.044,-1.795 7.732,-2.131 7.189,-2.133 6.83,-1.801 6.726,-1.709 4.458,0.307 0.748,-0.24 0.471,-0.281 0.197,-0.184 0,0">
+                                                        <path id="path38" style="
+                                  fill: #664500;
+                                  fill-opacity: 1;
+                                  fill-rule: nonzero;
+                                  stroke: none;
+                                " d="M 0,0 C -0.136,0.127 -0.236,0.293 -0.276,0.486 -0.375,0.955 -0.078,1.392 0.389,1.46 4.981,2.138 7.841,-0.469 7.962,-0.58 8.322,-0.914 8.357,-1.457 8.044,-1.795 7.732,-2.131 7.189,-2.133 6.83,-1.801 6.726,-1.709 4.458,0.307 0.748,-0.24 0.471,-0.281 0.197,-0.184 0,0">
                                                         </path>
                                                     </g>
                                                     <g transform="translate(20.4307,25.917)" id="g40">
-                                                        <path id="path42"
-                                                            style="fill:#664500;fill-opacity:1;fill-rule:nonzero;stroke:none"
-                                                            d="M 0,0 C -0.156,0.098 -0.286,0.243 -0.362,0.424 -0.549,0.866 -0.339,1.352 0.105,1.508 4.486,3.044 7.79,1.028 7.929,0.941 8.344,0.681 8.483,0.154 8.24,-0.237 7.998,-0.627 7.464,-0.732 7.049,-0.475 6.929,-0.402 4.321,1.146 0.782,-0.095 0.518,-0.187 0.23,-0.143 0,0">
+                                                        <path id="path42" style="
+                                  fill: #664500;
+                                  fill-opacity: 1;
+                                  fill-rule: nonzero;
+                                  stroke: none;
+                                " d="M 0,0 C -0.156,0.098 -0.286,0.243 -0.362,0.424 -0.549,0.866 -0.339,1.352 0.105,1.508 4.486,3.044 7.79,1.028 7.929,0.941 8.344,0.681 8.483,0.154 8.24,-0.237 7.998,-0.627 7.464,-0.732 7.049,-0.475 6.929,-0.402 4.321,1.146 0.782,-0.095 0.518,-0.187 0.23,-0.143 0,0">
                                                         </path>
                                                     </g>
                                                     <g transform="translate(17.2764,0.8682)" id="g44">
-                                                        <path id="path46"
-                                                            style="fill:#f4900c;fill-opacity:1;fill-rule:nonzero;stroke:none"
-                                                            d="m 0,0 c 0,0 1.265,0.411 1.429,1.352 0.173,0.971 -0.624,1.167 -0.624,1.167 0,0 1.041,0.208 1.172,1.376 0.123,1.1 -0.862,1.363 -0.862,1.363 0,0 0.97,0.4 1.016,1.539 0.038,0.959 -0.995,1.428 -0.995,1.428 0,0 5.038,1.22 5.555,1.34 0.516,0.121 1.321,0.616 1.07,1.695 -0.249,1.08 -1.204,1.118 -1.698,1.003 -0.494,-0.116 -6.744,-1.567 -8.9,-2.069 -0.23,-0.053 -1.308,-0.302 -1.439,-0.334 -0.54,-0.127 -0.785,0.111 -0.405,0.512 0.509,0.536 0.833,1.129 0.947,2.113 0.119,1.036 -0.232,2.314 -0.433,2.809 -0.374,0.921 -1.005,1.649 -1.734,1.899 -1.138,0.39 -1.946,-0.321 -1.542,-1.561 0.604,-1.855 0.209,-3.375 -0.833,-4.293 -2.449,-2.157 -3.589,-3.695 -2.83,-6.973 0.827,-3.575 4.377,-5.876 7.952,-5.048 C -2.965,-0.64 0,0 0,0">
+                                                        <path id="path46" style="
+                                  fill: #f4900c;
+                                  fill-opacity: 1;
+                                  fill-rule: nonzero;
+                                  stroke: none;
+                                " d="m 0,0 c 0,0 1.265,0.411 1.429,1.352 0.173,0.971 -0.624,1.167 -0.624,1.167 0,0 1.041,0.208 1.172,1.376 0.123,1.1 -0.862,1.363 -0.862,1.363 0,0 0.97,0.4 1.016,1.539 0.038,0.959 -0.995,1.428 -0.995,1.428 0,0 5.038,1.22 5.555,1.34 0.516,0.121 1.321,0.616 1.07,1.695 -0.249,1.08 -1.204,1.118 -1.698,1.003 -0.494,-0.116 -6.744,-1.567 -8.9,-2.069 -0.23,-0.053 -1.308,-0.302 -1.439,-0.334 -0.54,-0.127 -0.785,0.111 -0.405,0.512 0.509,0.536 0.833,1.129 0.947,2.113 0.119,1.036 -0.232,2.314 -0.433,2.809 -0.374,0.921 -1.005,1.649 -1.734,1.899 -1.138,0.39 -1.946,-0.321 -1.542,-1.561 0.604,-1.855 0.209,-3.375 -0.833,-4.293 -2.449,-2.157 -3.589,-3.695 -2.83,-6.973 0.827,-3.575 4.377,-5.876 7.952,-5.048 C -2.965,-0.64 0,0 0,0">
                                                         </path>
                                                     </g>
                                                 </g>
                                             </g>
                                         </g>
-                                    </svg>
-                                </span>Software comparisons
+                                    </svg> </span>Software comparisons
                             </a>
                         </li>
                     </ul>
@@ -448,8 +482,7 @@
                                                 d="M27.02 25.249h8.604c1.17 0 2.268-.626 2.866-1.633a.876.876 0 00-1.506-.892 1.588 1.588 0 01-1.361.775h-8.81c-.873 0-1.583-.71-1.583-1.583s.71-1.583 1.583-1.583H32.7a.875.875 0 000-1.75h-5.888a3.337 3.337 0 00-3.333 3.333c0 1.025.475 1.932 1.205 2.544a3.32 3.32 0 00-.998 2.373c0 1.028.478 1.938 1.212 2.549a3.318 3.318 0 00.419 5.08 3.305 3.305 0 00-.852 2.204 3.337 3.337 0 003.333 3.333h5.484a3.35 3.35 0 002.867-1.632.875.875 0 00-1.504-.894 1.594 1.594 0 01-1.363.776h-5.484c-.873 0-1.583-.71-1.583-1.583s.71-1.583 1.583-1.583h6.506a3.35 3.35 0 002.867-1.633.875.875 0 10-1.504-.894 1.572 1.572 0 01-1.363.777h-7.063a1.585 1.585 0 010-3.167h8.091a3.35 3.35 0 002.867-1.632.875.875 0 00-1.504-.894 1.573 1.573 0 01-1.363.776H27.02a1.585 1.585 0 010-3.167z">
                                             </path>
                                         </g>
-                                    </svg>
-                                </span>Code of comparisons
+                                    </svg> </span>Code of comparisons
                             </a>
                         </li>
                         <li>
@@ -474,8 +507,7 @@
                                                 d="M34.808 9.627c-.171-.166-1.267.274-2.376-.291-2.288-1.166-8.07-2.291-11.834.376-.403.285-2.087.333-2.558.313-.471.021-2.155-.027-2.558-.313-3.763-2.667-9.545-1.542-11.833-.376-1.109.565-2.205.125-2.376.291-.247.239-.247 1.196.001 1.436.246.239 1.477.515 1.722 1.232.247.718.249 4.958 2.213 6.424 1.839 1.372 6.129 1.785 8.848.238 2.372-1.349 2.289-4.189 2.724-5.881.155-.603.592-.907 1.26-.907s1.105.304 1.26.907c.435 1.691.351 4.532 2.724 5.881 2.719 1.546 7.009 1.133 8.847-.238 1.965-1.465 1.967-5.706 2.213-6.424.245-.717 1.476-.994 1.722-1.232.248-.24.249-1.197.001-1.436zm-20.194 3.65c-.077 1.105-.274 3.227-1.597 3.98-.811.462-1.868.743-2.974.743h-.001c-1.225 0-2.923-.347-3.587-.842-.83-.619-1.146-3.167-1.265-4.12-.076-.607-.28-2.09.388-2.318 1.06-.361 2.539-.643 4.052-.643.693 0 3.021.043 4.155.741 1.005.617.872 1.851.829 2.459zm16.278-.253c-.119.954-.435 3.515-1.265 4.134-.664.495-2.362.842-3.587.842h-.001c-1.107 0-2.163-.281-2.975-.743-1.323-.752-1.52-2.861-1.597-3.966-.042-.608-.176-1.851.829-2.468 1.135-.698 3.462-.746 4.155-.746 1.513 0 2.991.277 4.052.638.668.228.465 1.702.389 2.309z">
                                             </path>
                                         </g>
-                                    </svg>
-                                </span>Privacy Policy
+                                    </svg> </span>Privacy Policy
                             </a>
                         </li>
                         <li>
@@ -499,11 +531,9 @@
                                             <circle fill="#292F33" cx="25" cy="18" r="3.565"></circle>
                                             <circle fill="#F5F8FA" cx="26.317" cy="15.443" r="1.426"></circle>
                                         </g>
-                                    </svg>
-                                </span>Terms of use
+                                    </svg> </span>Terms of use
                             </a>
                         </li>
-
                     </ul>
                 </nav>
 
@@ -556,221 +586,361 @@
                                 d="M21.258 13.99c-.274 1.41-2.456 2.955-4.962 3.254-1.306.156-2.593.3-3.965.236-2.243-.103-4.014-.535-4.014-.535 0 .218.014.426.04.62.292 2.215 2.196 2.347 4 2.41 1.82.062 3.44-.45 3.44-.45l.076 1.646s-1.274.684-3.542.81c-1.25.068-2.803-.032-4.612-.51-3.923-1.039-4.598-5.22-4.701-9.464-.031-1.26-.012-2.447-.012-3.44 0-4.34 2.843-5.611 2.843-5.611 1.433-.658 3.892-.935 6.45-.956h.062c2.557.02 5.018.298 6.451.956 0 0 2.843 1.272 2.843 5.61 0 0 .036 3.201-.397 5.424zm-2.956-5.087c0-1.074-.273-1.927-.822-2.558-.567-.631-1.308-.955-2.229-.955-1.065 0-1.871.41-2.405 1.228l-.518.87-.519-.87C11.276 5.8 10.47 5.39 9.405 5.39c-.921 0-1.663.324-2.229.955-.549.631-.822 1.484-.822 2.558v5.253h2.081V9.057c0-1.075.452-1.62 1.357-1.62 1 0 1.501.647 1.501 1.927v2.79h2.07v-2.79c0-1.28.5-1.927 1.5-1.927.905 0 1.358.545 1.358 1.62v5.1h2.08V8.902l.001.001z">
                             </path>
                         </svg></a>
-
                 </div>
 
                 <div class="conteinerAsideScroll">
                     <h3>Popular Tags</h3>
                     <div class="conteinerScroll">
-                        <div class="bar-element"><a href="" class="aElement">#webdev</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#javascript</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#beginners</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#programming</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#tutorial</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#react</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#python</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#productivity</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#devops</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#aws</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#opensourse</a></div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#webdev</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#javascript</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#beginners</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#programming</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#tutorial</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#react</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#python</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#productivity</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#devops</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#aws</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#opensourse</a>
+                        </div>
                         <div class="bar-element"><a href="" class="aElement">#ai</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#discuss</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#css</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#node</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#news</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#career</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#typescript</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#html</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#databese</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#learning</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#testing</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#github</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#java</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#cloud</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#security</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#webdev</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#webdev</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#webdev</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#webdev</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#webdev</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#webdev</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#webdev</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#webdev</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#webdev</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#webdev</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#webdev</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#webdev</a></div>
-                        <div class="bar-element"><a href="" class="aElement">#webdev</a></div>
-
-
+                        <div class="bar-element">
+                            <a href="" class="aElement">#discuss</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#css</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#node</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#news</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#career</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#typescript</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#html</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#databese</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#learning</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#testing</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#github</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#java</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#cloud</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#security</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#webdev</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#webdev</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#webdev</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#webdev</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#webdev</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#webdev</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#webdev</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#webdev</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#webdev</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#webdev</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#webdev</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#webdev</a>
+                        </div>
+                        <div class="bar-element">
+                            <a href="" class="aElement">#webdev</a>
+                        </div>
                     </div>
                 </div>
 
                 <div class="containerAside_2">
                     <div class="imgSecAside">
                         <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--GkDXbK0b--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_350/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/oky7tpxe4z0f8ksng5ta.png"
-                            alt="">
+                            alt="" />
                     </div>
 
                     <div class="textInside">
-                        <h2 class="pBold">Life is too short to browse without <a href="#">dark mode</a>.</h2>
+                        <h2 class="pBold">
+                            Life is too short to browse without <a href="#">dark mode</a>.
+                        </h2>
                     </div>
 
                     <div class="textInside_2">
-                        <p>You can customize your theme, font, and more <a href="#">when you are signed in</a>.</p>
+                        <p>
+                            You can customize your theme, font, and more
+                            <a href="#">when you are signed in</a>.
+                        </p>
                     </div>
-
-
                 </div>
 
                 <div class="containerAside_3">
-
                     <div class="textInside_2">
-                        <p><a href="#">DEV Community</a> A constructive and inclusive social network for software
-                            developers. With you every step of your journey.</p>
+                        <p>
+                            <a href="#">DEV Community</a> A constructive and inclusive
+                            social network for software developers. With you every step of
+                            your journey.
+                        </p>
                     </div>
                     <div class="textInside_2">
-                        <p>Built on <a href="">Forem</a> — the <a href="">open source</a> software that powers <a
-                                href="">DEV</a> and other inclusive communities.</p>
+                        <p>
+                            Built on <a href="">Forem</a> — the
+                            <a href="">open source</a> software that powers
+                            <a href="">DEV</a> and other inclusive communities.
+                        </p>
                     </div>
                     <div class="textInside_2">
-                        <p>Made with love and <a href="#">Ruby on Rails.</a> DEV Community © 2016 - 2024.</p>
+                        <p>
+                            Made with love and <a href="#">Ruby on Rails.</a> DEV Community
+                            © 2016 - 2024.
+                        </p>
                     </div>
-
-
                 </div>
-
-
-
-
-
             </div>
-
-           
 
             <!-- Sección de Fernanda-->
 
             <div class="mainContainer">
-
                 <div class="headerPosts">
-    
                     <div class="headerMainContent">
                         <nav>
-                            <ul  class="navMainContent">
+                            <ul class="navMainContent">
                                 <li>Relevant</li>
                                 <li>Latest</li>
                                 <li>Top</li>
                             </ul>
                         </nav>
                     </div>
-    
                 </div>
-    
-                <div class="mainContainerPostOne"> 
-                    
+
+                <div class="mainContainerPostOne">
                     <div class="PostOne">
-    
-                    <div class="imagePostOne">
-                        <img src="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqlsu7ubgei5q54j0fqe0.png">
-                    </div>
-    
-                    <div class="postOneBody">
-    
+                        <div class="imagePostOne">
+                            <img
+                                src="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqlsu7ubgei5q54j0fqe0.png" />
+                        </div>
+
+                        <div class="postOneBody">
                             <div class="postOneTop">
                                 <div class="authorPostOne">
                                     <a href="https://dev.to/furkangozukara" class="authorPostOne_href">
-                                    <img src="https://media.dev.to/cdn-cgi/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/929044/dff42110-c0a0-4759-803f-22f82f200499.png" 
-                                    alt="Avatar image" class="avatarImagePostOne"> 
-                                    </a>      
-                                    <a href="https://dev.to/furkangozukara" class="authorNamePostOne">Furkan Gözükara</a>
+                                        <img src="https://media.dev.to/cdn-cgi/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/929044/dff42110-c0a0-4759-803f-22f82f200499.png"
+                                            alt="Avatar image" class="avatarImagePostOne" />
+                                    </a>
+                                    <a href="https://dev.to/furkangozukara" class="authorNamePostOne">Furkan
+                                        Gözükara</a>
                                     <p>Posted on</p>
                                     <p>Feb 11</p>
                                 </div>
                             </div>
-                            
-                        <div class="postOneBottom">    
-    
-                            <div class="mainContentTitle">
-                                <h1>Beware When Buying M2 NVMe SSDs: Netac NV7000, Kioxia Exceria Plus G2, Kingston and Sandisk Compared</h1>
-                            </div>
-    
-                            <div class="tagsPostOne">
-                                <a href="https://dev.to/t/news" class="news">#news</a>
-                                <a href="https://dev.to/t/beginners"class="beginners">#beginners</a>
-                                <a href="https://dev.to/t/tutorial" class="tutorial">tutorial</a>
-                                <a href="https://dev.to/t/devops" class="devops">#devops</a>
-                            </div>
-                        
-    
-                        <div class="engagementsPostOne">
-                            <div class="emojisAndComments">
-    
-                                <div class="emojis">
-    
-                                    <span class="reactionLike"> 
-                                        <img src="https://dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg">
-                                    </span>
-                                    <span class="reactionUnicorn"> 
-                                        <img src="https://dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg">
-                                    </span>
-                                    <span class="reactionExplodingHead"> 
-                                        <img src="https://dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg">
-                                    </span>
-                                    <span class="reactionRaisedHands"> 
-                                        <img src="https://dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg">
-                                    </span>
-                                    <span class="reactionFire"> 
-                                        <img src="https://dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg">
-                                    </span>
+
+                            <div class="postOneBottom">
+                                <div class="mainContentTitle">
+                                    <h1>
+                                        Beware When Buying M2 NVMe SSDs: Netac NV7000, Kioxia
+                                        Exceria Plus G2, Kingston and Sandisk Compared
+                                    </h1>
                                 </div>
-    
-                                    <span class="reactionCounter">5
-                                        <span>reactions</span>
-                                    </span>
-    
-                                    <span class="commentsPostOne">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="a7ejmwahjjicsqst24luezlgy1jnwlop" class="crayons-icon"><title id="a7ejmwahjjicsqst24luezlgy1jnwlop">Comments</title><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-                                        <span class="commentsPostOneBottom"> Add Comments</span>
-                                    </span>
-                             </div>
-    
+
+                                <div class="tagsPostOne">
+                                    <a href="https://dev.to/t/news" class="news">#news</a>
+                                    <a href="https://dev.to/t/beginners" class="beginners">#beginners</a>
+                                    <a href="https://dev.to/t/tutorial" class="tutorial">tutorial</a>
+                                    <a href="https://dev.to/t/devops" class="devops">#devops</a>
+                                </div>
+
+                                <div class="engagementsPostOne">
+                                    <div class="emojisAndComments">
+                                        <div class="emojis">
+                                            <span class="reactionLike">
+                                                <img
+                                                    src="https://dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg" />
+                                            </span>
+                                            <span class="reactionUnicorn">
+                                                <img
+                                                    src="https://dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg" />
+                                            </span>
+                                            <span class="reactionExplodingHead">
+                                                <img
+                                                    src="https://dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg" />
+                                            </span>
+                                            <span class="reactionRaisedHands">
+                                                <img
+                                                    src="https://dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg" />
+                                            </span>
+                                            <span class="reactionFire">
+                                                <img
+                                                    src="https://dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg" />
+                                            </span>
+                                        </div>
+
+                                        <span class="reactionCounter">5
+                                            <span>reactions</span>
+                                        </span>
+
+                                        <span class="commentsPostOne">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img"
+                                                aria-labelledby="a7ejmwahjjicsqst24luezlgy1jnwlop" class="crayons-icon">
+                                                <title id="a7ejmwahjjicsqst24luezlgy1jnwlop">
+                                                    Comments
+                                                </title>
+                                                <path
+                                                    d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z">
+                                                </path>
+                                            </svg>
+                                            <span class="commentsPostOneBottom"> Add Comments</span>
+                                        </span>
+                                    </div>
+
                                     <div class="savePostOneBottom">
                                         <p>3 min read</p>
                                         <button>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" aria-hidden="true"><path d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z"></path></svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                aria-hidden="true">
+                                                <path
+                                                    d="M6.75 4.5h10.5a.75.75 0 01.75.75v14.357a.375.375 0 01-.575.318L12 16.523l-5.426 3.401A.375.375 0 016 19.607V5.25a.75.75 0 01.75-.75zM16.5 6h-9v11.574l4.5-2.82 4.5 2.82V6z">
+                                                </path>
+                                            </svg>
                                         </button>
                                     </div>
-    
+                                </div>
                             </div>
-    
-                                
-    
                         </div>
-    
                     </div>
-    
-                    </div>
-    
-    
                 </div>
 
+                <!-- seccion Anais-->
+
+                <div class="mainContainerPostOne">
+                    <div class="PostOne">
+                        <div class="imagePostOne">
+                            <img src="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftv3zmc056kidsi3ke34u.png"
+                                alt="Cover image for Meme Monday" />
+                        </div>
+
+                        <div class="crayons-article__header__meta">
+                            <div class="flex s:items-start flex-col s:flex-row">
+                                <div id="action-space" class="crayons-article__actions mb-4 s:mb-0 s:order-last"></div>
+                                <div class="flex flex-1 mb-5 items-start">
+                                    <div class="relative">
+                                        <a href="/ben"><img class="radius-full align-middle"
+                                                src="https://media.dev.to/cdn-cgi/image/width=50,height=50,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1%2Ff451a206-11c8-4e3d-8936-143d0a7e65bb.png"
+                                                width="40" height="40" alt="Ben Halpern" /></a>
+                                    </div>
+                                    <div class="pl-3 flex-1">
+                                        <a href="/ben" class="crayons-link fw-bold">Ben Halpern</a>
+                                        <p class="fs-xs color-base-60">
+                                            Posted on
+                                            <time datetime="2024-02-12T14:10:11Z" class="date-no-year"
+                                                title="lunes, 12 de febrero de 2024, 8:10:11 a.&nbsp;m.">Feb 12</time>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="multiple_reactions_engagement">
+                                <span class="reaction_engagement_like">
+                                    <img src="https://dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg"
+                                        width="24" height="24" />
+                                    <span id="reaction_engagement_like_count">9</span>
+                                </span>
+                                <span class="reaction_engagement_unicorn">
+                                    <img src="https://dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg"
+                                        width="24" height="24" />
+                                    <span id="reaction_engagement_unicorn_count">2</span>
+                                </span>
+                                <span class="reaction_engagement_exploding_head">
+                                    <img src="https://dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg"
+                                        width="24" height="24" />
+                                    <span id="reaction_engagement_exploding_head_count">2</span>
+                                </span>
+                                <span class="reaction_engagement_raised_hands">
+                                    <img src="https://dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg"
+                                        width="24" height="24" />
+                                    <span id="reaction_engagement_raised_hands_count">1</span>
+                                </span>
+                                <span class="reaction_engagement_fire">
+                                    <img src="https://dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg"
+                                        width="24" height="24" />
+                                    <span id="reaction_engagement_fire_count">1</span>
+                                </span>
+                            </div>
+
+                            <h1 class="fs-3xl m:fs-4xl l:fs-5xl fw-bold s:fw-heavy lh-tight mb-2 short">
+                                Meme Monday
+                            </h1>
+
+                            <div class="spec__tags flex flex-wrap">
+                                <a class="crayons-tag" style="" href="/t/discuss"><span
+                                        class="crayons-tag__prefix">#</span>discuss</a>
+                                <a class="crayons-tag" style="" href="/t/jokes"><span
+                                        class="crayons-tag__prefix">#</span>jokes</a>
+                                <a class="crayons-tag" style="" href="/t/watercooler"><span
+                                        class="crayons-tag__prefix">#</span>watercooler</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sección de Maria Elena-->
+
+                <!-- Sección de Dannia-->
             </div>
-
-            <!-- Sección de Maria Elena-->
-
-
-
-
-
-
-            <!-- Sección de Anais-->
-
-
-
-
-            <!-- Sección de Dannia-->
-
-
             <div class="aside2">
                 <div class="container-right discuss">
                     <h2>#discuss</h2>
@@ -778,7 +948,7 @@
                     <div>
                         <div class="themes">
                             <a href="">
-                                <h3> The Front-End Development we’re used to is dying</h3>
+                                <h3>The Front-End Development we’re used to is dying</h3>
                                 <p>58 comments</p>
                             </a>
                         </div>
@@ -790,7 +960,7 @@
                         </div>
                         <div class="themes">
                             <a href="">
-                                <h3>I suck at writing! </h3>
+                                <h3>I suck at writing!</h3>
                                 <p>23 comments</p>
                             </a>
                         </div>
@@ -806,7 +976,6 @@
                                 <p>15 comments</p>
                             </a>
                         </div>
-
                     </div>
                 </div>
 
@@ -816,13 +985,15 @@
                     <div>
                         <div class="themes">
                             <a href="">
-                                <h3> Meme Monday</h3>
+                                <h3>Meme Monday</h3>
                                 <p>16 comments</p>
                             </a>
                         </div>
                         <div class="themes">
                             <a href="">
-                                <h3> Monday - What are youu listening to? (Blues & Jazz Edition)</h3>
+                                <h3>
+                                    Monday - What are youu listening to? (Blues & Jazz Edition)
+                                </h3>
                                 <p>14 comments</p>
                             </a>
                         </div>
@@ -834,11 +1005,10 @@
                         </div>
                         <div class="themes sinBorde">
                             <a href="">
-                                <h3> Caption This! 🤔💭 </h3>
+                                <h3>Caption This! 🤔💭</h3>
                                 <p>16 comments</p>
                             </a>
                         </div>
-
                     </div>
                 </div>
 
@@ -849,57 +1019,75 @@
                         <h3 id="title-section-trending">trending guides/resources</h3>
                     </div>
                     <div class="guides">
-                        <div><a href="">
+                        <div>
+                            <a href="">
                                 <p>The future of frontend development</p>
-                            </a></div>
-                        <div><a href="">
-                                <p>GitHub Readme: Responsive? 🤔 Animated? 🤯 Light and dark modes? 😱 You bet! 💪🏼</p>
-                            </a></div>
-                        <div> <a href="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <p>
+                                    GitHub Readme: Responsive? 🤔 Animated? 🤯 Light and dark
+                                    modes? 😱 You bet! 💪🏼
+                                </p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
                                 <p>10 Programming Languages Worth Learning in 2024</p>
-                            </a> </div>
-                        <div> <a href="">
-                                <p>What is the ideal Tech stack to build a website in 2024? 👨‍💻</p>
-                            </a></div>
-                        <div> <a href="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <p>
+                                    What is the ideal Tech stack to build a website in 2024? 👨‍💻
+                                </p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
                                 <p>Optimizing SQL Queries by 23x!!!</p>
-                            </a></div>
+                            </a>
+                        </div>
                     </div>
-                    <hr>
+                    <hr />
                 </div>
                 <div class="container-guides">
                     <div class="container-trending">
                         <h3 id="title-section-trending">recently queried</h3>
                     </div>
                     <div class="guides">
-                        <div><a href="">
+                        <div>
+                            <a href="">
                                 <p>JavaScript Playground</p>
-                            </a></div>
-                        <div><a href="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
                                 <p>Exit Vim</p>
-                            </a></div>
-                        <div> <a href="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
                                 <p>Programming Discord</p>
-                            </a> </div>
-                        <div> <a href="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
                                 <p>Dino Tutorial</p>
-                            </a></div>
-                        <div> <a href="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
                                 <p>Clean Architecture</p>
-                            </a></div>
+                            </a>
+                        </div>
                     </div>
-                    <hr>
+                    <hr />
                 </div>
-
-
             </div>
-
-
-
-        </div>
         </div>
     </section>
-
 </body>
 
 </html>
