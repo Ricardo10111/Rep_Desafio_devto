@@ -9,13 +9,24 @@
     padding: 20px;
     margin: 20px;
     position: relative;
+    width: 800px;
 }
+
+
+.imagePostOne {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 790px;
+        padding: 20px;
+    }
+
 
 .postOneTop {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
 
 .authorPostOne {
