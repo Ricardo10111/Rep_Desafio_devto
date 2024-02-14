@@ -5,8 +5,8 @@
   top: 0;
   left: 0;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: center;
+  justify-content: center;
   height: 54px;
   z-index: 2;
 }
@@ -36,6 +36,7 @@
 .lupita {
   margin: 8px;
   cursor: pointer;
+  display: block;
 }
 
 .buttonLogIn {
@@ -43,17 +44,18 @@
   border: transparent;
   border-radius: 4px;
   color: rgb(59, 57, 57); /*grey - black */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
   font-size: 15px;
   transition: all 0.3 ease;
   display: none;
   margin: 8px;
+  cursor: pointer;
 }
 
 .buttonLogIn:hover {
-  background-color: rgb(124, 170, 170);
+  background-color: rgba(18, 31, 175, 0.1);
   text-decoration: underline;
 }
 
@@ -62,6 +64,7 @@
   border: 1px solid;
   border-radius: 4px;
   color: rgb(21, 21, 194); /*grey - black */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding: 8px;
   text-align: center;
   text-decoration: none;
@@ -73,7 +76,7 @@
 }
 
 .buttonCreateAccount:hover {
-  background-color: rgb(21, 21, 194);
+  background-color: #3245e4;
   text-decoration: underline;
   color: azure;
 }
@@ -110,6 +113,9 @@
   }
   .searchInput {
     display: block;
+  }
+  .lupita {
+    display: none;
   }
 }
 .containerMain {
@@ -510,27 +516,6 @@ html {
   font-size: 18px;
 }
 
-.crayons-tag {
-  --tag-bg: rgba(113, 234, 139, 0.10);
-  --tag-prefix: #71EA8B;
-  --tag-bg-hover: rgba(113, 234, 139, 0.10);
-  --tag-prefix-hover: #71EA8B;
-}
-
-.crayons-tag__prefix {
-  --tag-bg: rgba(246, 41, 140, 0.10);
-  --tag-prefix: #F6298C;
-  --tag-bg-hover: rgba(246, 41, 140, 0.10);
-  --tag-prefix-hover: #F6298C;
-}
-
-.crayons-tag__prefix1 {
-  --tag-bg: rgba(208, 236, 255, 0.10);
-  --tag-prefix: #D0ECFF;
-  --tag-bg-hover: rgba(208, 236, 255, 0.10);
-  --tag-prefix-hover: #D0ECFF;
-}
-
 .mainContainerPostOne {
   display: flex;
   flex-direction: column;
@@ -542,19 +527,27 @@ html {
   border-radius: 10px;
   padding: 20px;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 .navMainContent {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  gap: 3em;
+  gap: 1em;
   border-radius: 10px;
   padding: 10px;
 }
 .navMainContent li {
   list-style: none;
-  padding: 4px;
+  padding: 10px;
+  background-color: transparent;
+}
+.navMainContent li:hover {
+  padding: 12px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15%;
+  color: rgb(57, 57, 228);
 }
 
 .imagePostOne {
@@ -563,6 +556,9 @@ html {
   justify-content: center;
   width: 100%;
   padding: 20px;
+}
+.imagePostOne .bigImage {
+  border-radius: 10px;
 }
 
 .postOneTop {
@@ -574,9 +570,11 @@ html {
 
 .authorPostOne {
   display: flex;
+  justify-content: center;
   align-items: center;
-  line-height: 5px;
+  flex-direction: row;
   font-size: 20px;
+  gap: 10px;
 }
 .authorPostOne .avatarImagePostOne {
   display: inline-block;
@@ -591,8 +589,10 @@ html {
   display: inline-block;
   margin-bottom: 0;
   position: relative;
-  font-weight: 30px;
+  font-weight: bold;
+  font-size: 17px;
   text-decoration: none;
+  color: #000;
 }
 
 .postOneBottom {
@@ -601,6 +601,10 @@ html {
 .postOneBottom .mainContentTitle {
   padding: 15px;
   text-align: justify;
+}
+.postOneBottom .mainContentTitle:hover {
+  color: rgb(57, 57, 228);
+  cursor: pointer;
 }
 .postOneBottom .tagsPostOne {
   margin-bottom: 25px;
@@ -648,28 +652,36 @@ html {
 }
 .engagementsPostOne .emojisAndComments .reactionCounter {
   margin-left: 1em;
-  display: inline;
+  display: inline-flex;
+  font-size: 0.9em;
 }
 .engagementsPostOne .emojisAndComments .commentsPostOne {
-  padding-left: 50px;
+  padding-left: 25px;
+  font-size: 0.9em;
 }
 .engagementsPostOne .emojisAndComments .commentsPostOne .crayons-icon {
-  margin-right: 10px;
+  margin-right: 5px;
 }
 .engagementsPostOne .emojisAndComments .commentsPostOne .commentsPostOneBottom {
   display: inline;
+  font-size: 0.9em;
 }
 .engagementsPostOne .savePostOneBottom {
   display: flex;
   align-items: center;
 }
 .engagementsPostOne .savePostOneBottom p {
-  margin-right: 20px;
+  margin-right: 15px;
+  font-size: 0.9em;
 }
 .engagementsPostOne .savePostOneBottom button {
-  padding: 5px;
+  padding: 2px;
   background-color: white;
   border: none;
+}
+
+.nameDate p {
+  font-size: 10px;
 }
 
 body {
