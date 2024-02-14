@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .crayons-tag{
     --tag-bg: rgba(113, 234, 139, 0.10);
@@ -18,4 +19,168 @@
     --tag-prefix: #D0ECFF;
     --tag-bg-hover: rgba(208, 236, 255, 0.10);
     --tag-prefix-hover: #D0ECFF;
+=======
+.mainContainerPostOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    border: rgb(228, 225, 228) 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    width: 90%;
+}
+
+.navMainContent {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 3em;
+    border-radius: 10px;
+    padding: 10px;
+    li {
+        list-style:none;
+        padding: 4px;
+    }
+
+}
+
+
+.imagePostOne {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 20px;
+    }
+
+
+.postOneTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*margin-bottom: 20px;*/
+}
+
+.authorPostOne {
+    display: flex;
+    align-items: center;
+    line-height: 5px;
+    font-size: 20px;
+
+    .avatarImagePostOne {
+        display: inline-block;
+        border-radius: 100%;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        overflow: hidden;
+        vertical-align: middle;
+    }
+
+    .authorNamePostOne {
+        display: inline-block;
+        margin-bottom: 0;
+        position: relative;
+        font-weight: 30px;
+        text-decoration: none;
+
+    }
+
+}
+
+.postOneBottom {
+        padding-left: 50px;
+
+        .mainContentTitle {
+            padding: 15px;
+            text-align:justify;
+        }
+
+        .tagsPostOne {
+            margin-bottom: 25px;
+            margin-left: 10px;
+            font-size: small ;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            color: rgb(59, 57, 57);
+            text-decoration: none;
+
+            .news:hover,
+            .beginners:hover,
+            .tutorial:hover,
+            .devops:hover {
+                background-color: rgb(238, 232, 232);
+                border-radius: 4px;
+                padding: 7px;
+
+            }
+        }
+}
+
+.engagementsPostOne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: medium;
+    line-height: 10px;
+
+    .emojisAndComments {
+        display: flex;
+        margin-left: 10px;
+
+        .emojis {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+
+            .reactionLike, 
+            .reactionUnicorn, 
+            .reactionExplodingHead,
+            .reactionRaisedHands, 
+            .reactionFire {
+                padding: 3px;
+                background-color: rgb(238, 232, 232) ;
+                border-radius: 50%;
+            }
+        }
+
+        .reactionCounter {
+            margin-left: 1em;
+            display: inline;
+        }
+
+        .commentsPostOne {
+            padding-left: 50px;
+
+            .crayons-icon {
+                margin-right: 10px;
+            }
+
+            .commentsPostOneBottom {
+                display: inline;
+            }
+        }
+    }
+
+    .savePostOneBottom {
+        display: flex;
+        align-items: center;
+
+        p {
+            margin-right: 20px;
+        }
+
+        button {
+            padding: 5px;
+            background-color: white;
+            border: none;
+        }
+    }
+>>>>>>> d4494bc4a69a5fa99b9b4df4a70151e612284912
 }
