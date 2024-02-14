@@ -532,13 +532,19 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  gap: 3em;
+  gap: 1em;
   border-radius: 10px;
   padding: 10px;
 }
 .navMainContent li {
   list-style: none;
-  padding: 4px;
+  padding: 10px;
+  background-color: transparent;
+}
+.navMainContent li:hover {
+  padding: 12px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15%;
 }
 
 .imagePostOne {
