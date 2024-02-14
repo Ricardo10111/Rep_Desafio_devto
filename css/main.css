@@ -563,7 +563,7 @@ html {
 }
 
 .authorPostOne {
-  display: flex;
+  display: inline-block;
   align-items: center;
   line-height: 5px;
   font-size: 20px;
@@ -578,11 +578,19 @@ html {
   vertical-align: middle;
 }
 .authorPostOne .authorNamePostOne {
-  display: block;
+  display: inline-block;
   margin-bottom: 0;
   position: relative;
-  font-weight: 30px;
+  font-weight: bold;
+  font-size: 17px;
   text-decoration: none;
+  color: #000;
+}
+.authorPostOne .authorNamePostOne .date p {
+  display: block;
+  position: relative;
+  font-weight: normal;
+  font-size: 17px;
 }
 
 .postOneBottom {
