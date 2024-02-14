@@ -385,6 +385,14 @@ html {
   width: 800px;
 }
 
+.navMainContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: rgb(228, 225, 228) 2px solid;
+  border-radius: 10px;
+}
+
 .imagePostOne {
   display: flex;
   flex-direction: column;
