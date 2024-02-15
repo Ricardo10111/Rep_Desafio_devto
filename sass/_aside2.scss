@@ -1,30 +1,49 @@
 .aside2{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Roboto", sans-serif;
+    line-height: 28px;
+
 }
 
 .container-right{
         border: 3px solid rgb(228, 225, 228);
         background-color: white;
-        margin: 0px 80px 20px 20px;
+        margin: 0px 0px 20px 20px;
         border-radius: 10px;
+
+        .title-h2{
+            font-size: 1.25rem;
+            color: #404040;
+            }
+        
+
     }  
 
     .discuss{
             padding: 10px 25px 10px 25px;
 
+
             .themes{
                 border-bottom: 1px solid rgb(205, 202, 202);
                 margin: 15px 0px 15px 0px;
 
+                .text-title{
+                    font-size: 20px;
+                    }
+
+                .text-title:hover{
+                    color: blue;
+                    }
+
                 a{
                     text-decoration: none;
-                    color: black;
+                    color: #404040;
+                    //line-height: 28px;
                 }
 
                 a:hover{
                     color: blue;
                     p{
-                        color: black;
+                        color: #404040;
                     }
                 }
 
@@ -49,7 +68,7 @@
         }
 
 .container-guides{
-                margin: 0px 80px 20px 20px;
+                margin: 0px 0px 20px 20px;
                 border-radius: 10px;
                 padding: 10px 25px 10px 25px;
 
@@ -69,7 +88,7 @@
                         margin-top: 15px;
                         margin-bottom: 15px;
                         font-size: 20px;
-                        color: black;
+                        color: #404040;
                     }
                     a{
                         text-decoration: none;
@@ -91,5 +110,6 @@ hr{
             }
 
 #title-section-trending{
-                font-family: 'Courier New', Courier, monospace;
+                font-family: monospace;
+                font-size: 18px
 }
