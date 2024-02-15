@@ -5,8 +5,8 @@
   top: 0;
   left: 0;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: center;
+  justify-content: center;
   height: 54px;
   z-index: 2;
 }
@@ -36,6 +36,7 @@
 .lupita {
   margin: 8px;
   cursor: pointer;
+  display: block;
 }
 
 .buttonLogIn {
@@ -43,17 +44,18 @@
   border: transparent;
   border-radius: 4px;
   color: rgb(59, 57, 57); /*grey - black */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
   font-size: 15px;
   transition: all 0.3 ease;
   display: none;
   margin: 8px;
+  cursor: pointer;
 }
 
 .buttonLogIn:hover {
-  background-color: rgb(124, 170, 170);
+  background-color: rgba(18, 31, 175, 0.1);
   text-decoration: underline;
 }
 
@@ -62,6 +64,7 @@
   border: 1px solid;
   border-radius: 4px;
   color: rgb(21, 21, 194); /*grey - black */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding: 8px;
   text-align: center;
   text-decoration: none;
@@ -73,7 +76,7 @@
 }
 
 .buttonCreateAccount:hover {
-  background-color: rgb(21, 21, 194);
+  background-color: #3245e4;
   text-decoration: underline;
   color: azure;
 }
@@ -110,6 +113,9 @@
   }
   .searchInput {
     display: block;
+  }
+  .lupita {
+    display: none;
   }
 }
 .containerMain {
@@ -420,14 +426,19 @@ html {
 }
 
 .aside2 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Roboto", sans-serif;
+  line-height: 28px;
 }
 
 .container-right {
   border: 3px solid rgb(228, 225, 228);
   background-color: white;
-  margin: 0px 80px 20px 20px;
+  margin: 0px 0px 20px 20px;
   border-radius: 10px;
+}
+.container-right .title-h2 {
+  font-size: 1.25rem;
+  color: #404040;
 }
 
 .discuss {
@@ -437,15 +448,21 @@ html {
   border-bottom: 1px solid rgb(205, 202, 202);
   margin: 15px 0px 15px 0px;
 }
+.discuss .themes .text-title {
+  font-size: 20px;
+}
+.discuss .themes .text-title:hover {
+  color: blue;
+}
 .discuss .themes a {
   text-decoration: none;
-  color: black;
+  color: #404040;
 }
 .discuss .themes a:hover {
   color: blue;
 }
 .discuss .themes a:hover p {
-  color: black;
+  color: #404040;
 }
 .discuss .themes h3 {
   margin-top: 2px;
@@ -460,7 +477,7 @@ html {
 }
 
 .container-guides {
-  margin: 0px 80px 20px 20px;
+  margin: 0px 0px 20px 20px;
   border-radius: 10px;
   padding: 10px 25px 10px 25px;
 }
@@ -478,7 +495,7 @@ html {
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 20px;
-  color: black;
+  color: #404040;
 }
 .container-guides .guides a {
   text-decoration: none;
@@ -495,7 +512,8 @@ html {
 }
 
 #title-section-trending {
-  font-family: "Courier New", Courier, monospace;
+  font-family: monospace;
+  font-size: 18px;
 }
 
 .mainContainerPostOne {
