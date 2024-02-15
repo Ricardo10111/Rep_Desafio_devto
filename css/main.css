@@ -144,7 +144,7 @@
   }
   .containerMain .aside {
     height: 100vh;
-    max-width: 50%;
+    max-width: 300px;
     display: block;
   }
   .containerMain .aside2 {
