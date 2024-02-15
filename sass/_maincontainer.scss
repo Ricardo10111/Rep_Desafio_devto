@@ -1,25 +1,3 @@
-
-.crayons-tag{
-    --tag-bg: rgba(113, 234, 139, 0.10);
-    --tag-prefix: #71EA8B;
-    --tag-bg-hover: rgba(113, 234, 139, 0.10);
-    --tag-prefix-hover: #71EA8B;
-}
-
-.crayons-tag__prefix{
-    --tag-bg: rgba(246, 41, 140, 0.10);
-    --tag-prefix: #F6298C;
-    --tag-bg-hover: rgba(246, 41, 140, 0.10);
-    --tag-prefix-hover: #F6298C;
-}
-
-.crayons-tag__prefix1{
-    --tag-bg: rgba(208, 236, 255, 0.10);
-    --tag-prefix: #D0ECFF;
-    --tag-bg-hover: rgba(208, 236, 255, 0.10);
-    --tag-prefix-hover: #D0ECFF;
-}
-
 .mainContainerPostOne {
     display: flex;
     flex-direction: column;
@@ -33,6 +11,7 @@
     // margin: 20px;
     // position: relative;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .navMainContent {
@@ -40,12 +19,22 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    gap: 3em;
+    gap: 1em;
     border-radius: 10px;
     padding: 10px;
+
     li {
         list-style:none;
-        padding: 4px;
+        padding: 10px;
+        background-color: transparent; 
+    }
+
+    li:hover {
+        
+        padding: 12px;
+        background-color: rgb(255, 255, 255) ;
+        border-radius: 15%;
+        color:rgb(57, 57, 228);
     }
 
 }
@@ -57,7 +46,14 @@
         justify-content: center;
         width: 100%;
         padding: 20px;
+
+        .bigImage {
+            border-radius: 10px;
+        }
+        
     }
+
+    
 
 
 .postOneTop {
@@ -69,9 +65,13 @@
 
 .authorPostOne {
     display: flex;
+    justify-content: center;
     align-items: center;
-    line-height: 5px;
+    flex-direction: row;
     font-size: 20px;
+    gap: 10px;
+
+   
 
     .avatarImagePostOne {
         display: inline-block;
@@ -81,14 +81,18 @@
         height: 40px;
         overflow: hidden;
         vertical-align: middle;
+        
     }
 
     .authorNamePostOne {
         display: inline-block;
         margin-bottom: 0;
         position: relative;
-        font-weight: 30px;
+        font-weight: bold;
+        font-size: 17px;
         text-decoration: none;
+        color:#000;
+
 
     }
 
@@ -100,7 +104,13 @@
         .mainContentTitle {
             padding: 15px;
             text-align:justify;
+            &:hover {
+                color: rgb(57, 57, 228);
+                cursor: pointer;
+            }
         }
+
+       
 
         .tagsPostOne {
             margin-bottom: 25px;
@@ -153,18 +163,22 @@
 
         .reactionCounter {
             margin-left: 1em;
-            display: inline;
+            display: inline-flex;
+            font-size: .9em;
         }
 
         .commentsPostOne {
-            padding-left: 50px;
+            padding-left: 25px;
+            font-size: .9em;
 
             .crayons-icon {
-                margin-right: 10px;
+                margin-right: 5px;
+                
             }
 
             .commentsPostOneBottom {
                 display: inline;
+                font-size: .9em;
             }
         }
     }
@@ -174,13 +188,23 @@
         align-items: center;
 
         p {
-            margin-right: 20px;
+            margin-right: 15px;
+            font-size: .9em;
         }
 
         button {
-            padding: 5px;
+            padding: 2px;
             background-color: white;
             border: none;
         }
     }
+}
+
+.nameDate {
+
+    p {
+        font-size: 10px;
+    }
+
+    
 }
