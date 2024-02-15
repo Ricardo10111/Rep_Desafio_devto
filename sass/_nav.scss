@@ -120,3 +120,148 @@
     display: block;
   }
 }
+
+
+
+
+
+
+
+// Opción Ricardo
+
+
+// .header {
+//     display: flex;
+//     justify-content: center;
+//     align-content: center;
+
+//     .insideHeader {
+//         display: flex;
+//         justify-content: flex-start;
+//         align-items: center;
+//         align-content: center;
+//         // border: 1px solid black;
+//         width: 90em;
+
+//         .imgDev {
+//             display: flex;
+//             align-items: center;
+//             align-content: flex-start;
+//             margin-left: 20px;
+//             img {
+//                 width: 55px;
+//                 height: 40px;
+
+//             }
+
+//             .searchInterno{
+//                 display: flex;
+//                 // position: relative;
+//                 flex-wrap: wrap;
+//                 flex-flow: row;
+//                 height: 40px;
+//                 width: 400px;
+//                 // border: 1px solid red;
+
+//                 .inputLinea{
+//                     display: flex;
+//                     position: relative;
+//                     font-size: 1rem;
+//                     height: 40px;
+//                     width: 380px;
+//                     border: 1px solid #d6d6d7;
+//                     border-radius: 0.375rem;
+//                     margin-left: 2px;
+
+//                     input {
+//                         margin-left: 2px;
+
+//                         border: none;
+//                     }
+//                     button {
+//                         border: none;
+//                         background-color: transparent;
+
+//                         &:hover {
+
+//                             background-color: rgba( 59, 73, 223 , 0.1);
+//                             cursor: pointer;
+//                             border-radius: 0.375rem;
+
+//                         }
+//                     }
+                   
+//                     .inputInside {
+//                         font-family: inherit;
+//                         font-size: 1rem;
+//                         width: 100%;
+
+                       
+    
+                       
+                       
+                       
+//                     }
+    
+
+//                 }
+              
+                
+//             }
+
+//         }
+
+
+//         .logAccoNav {
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//             align-content: center;
+//             // border: 1px solid black;
+//             margin-left: 660px;
+//             height: 90%;
+//             width: 14em;
+//             gap: 3%;
+
+//             .aLogIn {
+//                 text-align: center;
+//                 padding-top: 7px;
+//                 color: black;
+//                 text-decoration: none;
+//                 width: 27%;
+//                 height: 80%;
+
+//                 &:hover {
+//                     background-color: rgba( 59, 73, 223 , 0.1);
+//                     border: 1px solid rgba( 59, 73, 223 , 0.1);
+//                     border-radius: 0.375rem;
+//                     color: blue;
+//                     text-decoration: underline blue;
+
+//                 }
+//             }
+
+//             .aCreaAco {
+//                 text-decoration: none;
+//                 border: 1px solid rgb(59, 73, 223);
+//                 border-radius: 0.375rem;
+//                 color: rgb(59, 73, 223);
+//                 padding-top: 7px;
+//                 text-align: center;
+//                 height: 80%;
+//                 width: 67%;
+
+//                 &:hover {
+//                     background-color: rgb(59, 73, 223);
+//                     text-decoration: underline white;
+//                     color: white;
+//                     border: 1px solid rgb(59, 73, 223);
+    
+
+//                 }
+
+//             }
+//         }
+
+//     }
+// }
