@@ -116,10 +116,9 @@
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
-  margin-top: 60px;
+  margin-top: 70px;
 }
 .containerMain .aside {
-  border: 1px solid black;
   height: 100vh;
   width: 100%;
   display: none;
@@ -130,7 +129,6 @@
   display: none;
 }
 .containerMain .mainContainer {
-  border: 1px solid black;
   height: 100vh;
   width: 100%;
   margin: 0;
@@ -168,7 +166,7 @@
   .containerMain .aside {
     margin-left: 20px;
     height: 100vh;
-    max-width: 300px;
+    max-width: 275px;
     display: block;
   }
   .containerMain .aside2 {
@@ -205,16 +203,16 @@ html {
 .containerAside1 .textInside {
   position: relative;
   padding: 1px;
-  max-width: 80%;
+  width: 100%;
   max-height: 20em;
 }
 .containerAside1 .textInside .pBold {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 22px;
+  font-size: 1.25rem;
 }
 .containerAside1 .textInside_2 {
   padding: 1px;
-  max-width: 80%;
+  width: 100%;
   max-height: 20em;
   display: flex;
   flex-direction: column;
@@ -332,7 +330,6 @@ html {
   display: flex;
   justify-content: right;
   flex-direction: column;
-  gap: 20px;
   padding-left: 30px;
   max-height: 42vh;
   max-width: 250px;
@@ -341,17 +338,24 @@ html {
   margin-top: 30px;
 }
 .conteinerScroll .bar-element {
-  width: 95%;
-}
-.conteinerScroll .bar-element:hover {
-  color: blue;
-  background-color: #bbd8ee;
-  text-decoration: underline;
+  width: 100%;
 }
 .conteinerScroll .bar-element .aElement {
+  display: flex;
+  align-items: center;
+  align-content: flex-start;
   text-decoration: none;
-  font-size: 20px;
+  width: 100%;
+  height: 2.6em;
+  border-radius: 0.375rem;
+  font-size: 15px;
   color: black;
+}
+.conteinerScroll .bar-element .aElement:hover {
+  color: blue;
+  border-radius: 0.375rem;
+  background-color: rgba(59, 73, 223, 0.1);
+  text-decoration: underline;
 }
 
 .containerAside_2 {
@@ -363,7 +367,7 @@ html {
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
   min-height: 20em;
-  min-width: 300px;
+  width: 100%;
   margin: 20px 10px;
   padding: 10px;
 }
