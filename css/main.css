@@ -5,8 +5,8 @@
   top: 0;
   left: 0;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: center;
+  justify-content: center;
   height: 54px;
   z-index: 2;
 }
@@ -36,6 +36,7 @@
 .lupita {
   margin: 8px;
   cursor: pointer;
+  display: block;
 }
 
 .buttonLogIn {
@@ -43,17 +44,18 @@
   border: transparent;
   border-radius: 4px;
   color: rgb(59, 57, 57); /*grey - black */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
   font-size: 15px;
   transition: all 0.3 ease;
   display: none;
   margin: 8px;
+  cursor: pointer;
 }
 
 .buttonLogIn:hover {
-  background-color: rgb(124, 170, 170);
+  background-color: rgba(18, 31, 175, 0.1);
   text-decoration: underline;
 }
 
@@ -62,6 +64,7 @@
   border: 1px solid;
   border-radius: 4px;
   color: rgb(21, 21, 194); /*grey - black */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding: 8px;
   text-align: center;
   text-decoration: none;
@@ -73,7 +76,7 @@
 }
 
 .buttonCreateAccount:hover {
-  background-color: rgb(21, 21, 194);
+  background-color: #3245e4;
   text-decoration: underline;
   color: azure;
 }
@@ -110,6 +113,9 @@
   }
   .searchInput {
     display: block;
+  }
+  .lupita {
+    display: none;
   }
 }
 .containerMain {
