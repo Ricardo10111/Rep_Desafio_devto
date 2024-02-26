@@ -7,7 +7,7 @@
     background-color: white;
     border: rgb(228, 225, 228) 2px solid;
     border-radius: 10px;
-    padding: 20px;
+    padding-bottom: 20px;
     // margin: 20px;
     // position: relative;
     width: 100%;
@@ -31,7 +31,6 @@
 
     li:hover {
         
-        padding: 12px;
         background-color: rgb(255, 255, 255) ;
         border-radius: 15%;
         color:rgb(57, 57, 228);
@@ -46,10 +45,13 @@
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        padding: 20px;
+        // padding: 20px;
 
         .bigImage {
-            border-radius: 10px;
+            // border-radius: 10px;
+            padding: 0;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
         }
         
     }
@@ -61,6 +63,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 9px;
+    margin-bottom: 8px;
+    margin-left: 20px;
     /*margin-bottom: 20px;*/
 }
 
@@ -71,6 +76,16 @@
     flex-direction: row;
     font-size: 20px;
     gap: 10px;
+
+    .image {
+        .authorPostOne_href{
+            imh {
+
+                height: 32px;
+                width: 32px;
+            }
+        }
+    }
 
    
 
@@ -100,21 +115,34 @@
 }
 
 .postOneBottom {
-        padding-left: 50px;
+        padding-left: 40px;
+        // border: 1px solid black;
 
         .mainContentTitle {
-            padding: 15px;
-            text-align:justify;
-            &:hover {
-                color: rgb(57, 57, 228);
-                cursor: pointer;
+            // padding-left: 40px;
+            h2 {
+                font-size: 1.25rem;
+                a{
+
+                    // padding: 15px;
+                    text-align:justify;
+                    text-decoration: none;
+                    color: black;
+
+                    &:hover {
+                        color: rgb(57, 57, 228);
+                        cursor: pointer;
+                    }
+                }
             }
+
+           
         }
 
        
 
         .tagsPostOne {
-            margin-bottom: 25px;
+            margin-bottom: 17px;
             margin-left: 10px;
             font-size: small ;
             display: flex;
@@ -122,16 +150,23 @@
             gap: 20px;
             color: rgb(59, 57, 57);
             text-decoration: none;
+            .news {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 10px;
+                height: 30px;
+                min-width: 70px;
+                text-decoration: none;
+                color: black;
+                &:hover {
+                    background-color:rgba(86, 39, 101, 0.10);
+                    border-radius: 4px;
+                    border: 1px solid #2d2a2a;;
 
-            .news:hover,
-            .beginners:hover,
-            .tutorial:hover,
-            .devops:hover {
-                background-color: rgb(238, 232, 232);
-                border-radius: 4px;
-                padding: 7px;
-
+                }
             }
+            
         }
 }
 
@@ -139,48 +174,90 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: medium;
-    line-height: 10px;
+    font-size: 0.875rem;
+    // line-height: 10px;
 
     .emojisAndComments {
         display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
         margin-left: 10px;
+        // border: 1px solid black;
 
         .emojis {
             display: flex;
             align-items: center;
-            flex-direction: row;
-
-            .reactionLike, 
-            .reactionUnicorn, 
-            .reactionExplodingHead,
-            .reactionRaisedHands, 
-            .reactionFire {
-                padding: 3px;
-                background-color: rgb(238, 232, 232) ;
+            align-content: center;
+            justify-content: center;
+            margin-left: 0.5rem;
+            // border: 1px solid black;
+            height: 40px;
+            width: 167px;
+            .insideEmoji {
+                margin: -6px;
+                height: 25px;
+                width: 25px;
                 border-radius: 50%;
+                border: 2px solid rgb( 255, 255, 255 );
+                background-color: rgb( 245, 245, 245 );           
             }
-        }
-
-        .reactionCounter {
-            margin-left: 1em;
-            display: inline-flex;
-            font-size: .9em;
-        }
-
-        .commentsPostOne {
-            padding-left: 25px;
-            font-size: .9em;
-
-            .crayons-icon {
-                margin-right: 5px;
-                
+            .reactionCounter {
+                margin-left: 0.5rem;
+                .reactionCounter_2{
+                    display: none;
+                }
             }
 
-            .commentsPostOneBottom {
-                display: inline;
+            &:hover {
+                cursor: pointer;
+                background-color: rgba(0, 0, 0, 0.035) ;
+                border-radius: 0.375rem;
+
+            }
+
+            
+
+            
+        }
+
+      
+        .commentsPostOneDiv{
+            display: flex;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            margin-left: 0.5rem;
+            // border: 1px solid black;
+            height: 40px;
+            width: 40px;
+
+            .commentsPostOne {
+                // padding-left: 25px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 font-size: .9em;
+    
+                .crayons-icon {
+                    margin-right: 5px;
+                    
+                }
+    
+                .commentsPostOneBottom {
+                    display: inline;
+                    font-size: .9em;
+                    display: none;
+                }
             }
+
+            &:hover {
+                cursor: pointer;
+                background-color: rgba(0, 0, 0, 0.035) ;
+                border-radius: 0.375rem;
+
+            }
+            
         }
     }
 

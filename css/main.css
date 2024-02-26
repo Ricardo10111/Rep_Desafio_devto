@@ -1,123 +1,150 @@
 .header {
-  background: white;
-  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 1px 1px rgba(24, 26, 27, 0.1);
   position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  flex-direction: center;
-  justify-content: center;
-  height: 54px;
-  z-index: 2;
-}
-
-.header .logo {
-  justify-content: flex-start;
-  cursor: pointer;
-}
-
-.nav {
-  padding: 8px;
-  margin: 4px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  width: 55%;
-}
-
-.clickhere {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-}
-
-.lupita {
-  margin: 8px;
-  cursor: pointer;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 56px;
+  z-index: 100;
   display: block;
 }
-
-.buttonLogIn {
-  /*same color header*/
-  border: transparent;
-  border-radius: 4px;
-  color: rgb(59, 57, 57); /*grey - black */
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  text-align: center;
-  display: inline-block;
-  font-size: 15px;
-  transition: all 0.3 ease;
-  display: none;
-  margin: 8px;
-  cursor: pointer;
+.header .insideHeader {
+  max-width: 1280px;
+  padding: 0, 1rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 56px;
 }
-
-.buttonLogIn:hover {
-  background-color: rgba(18, 31, 175, 0.1);
-  text-decoration: underline;
-}
-
-.buttonCreateAccount {
-  background-color: white; /*same color than header*/
-  border: 1px solid;
-  border-radius: 4px;
-  color: rgb(21, 21, 194); /*grey - black */
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  padding: 8px;
-  text-align: center;
+.header .insideHeader .siteLogo {
+  max-width: 200px, 125px;
+  font-size: 1.25rem, 1rem;
+  font-weight: 700, 500;
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  vertical-align: middle;
+  color: #090909;
   text-decoration: none;
+  letter-spacing: -0.02rem;
+  line-height: 1;
+  outline: 0;
+}
+.header .insideHeader .siteLogo .siteLogoImg {
+  width: 50px;
+  height: 40px;
+  height: calc(var(--header-height) - var(--su-2) * 2);
+  -o-object-fit: contain;
+     object-fit: contain;
+  vertical-align: middle;
   display: inline-block;
-  font-size: 15px;
-  transition: all 0.3 ease;
-  cursor: pointer;
-  justify-content: flex-end;
+  outline: 0;
 }
-
-.buttonCreateAccount:hover {
-  background-color: #3245e4;
-  text-decoration: underline;
-  color: azure;
+.header .insideHeader .imgDev {
+  height: 90%;
+  max-width: 420px;
+  flex: auto;
 }
-
-.logo {
-  padding: 8px;
-  margin: 8px;
+.header .insideHeader .imgDev .imgDev_2 {
   display: flex;
-  flex-direction: row;
+  flex-flow: row;
+  flex-wrap: wrap;
+  height: 90%;
+  justify-content: center;
   align-items: center;
+  align-content: center;
+}
+.header .insideHeader .imgDev .imgDev_2 .imgDev_3 {
+  display: flex;
+  flex-flow: column;
+  font-size: 1rem;
+  position: relative;
+  height: 90%;
+  flex: 1 1 0%;
+  justify-content: center;
+}
+.header .insideHeader .imgDev .imgDev_2 .imgDev_3 .inputInside {
+  height: 38px;
+  padding: 1px 8px;
+  font-family: inherit;
+  font-size: 1rem;
+  width: 100%;
+  resize: vertical;
+  background-color: rgb(255, 255, 255);
+  border: 1.5px solid rgb(212, 212, 212);
+  border-radius: 0.375rem;
+  transition: all cubic-bezier(0.17, 0.67, 0.5, 0.71) 100ms;
+}
+.header .insideHeader .imgDev .imgDev_2 .imgDev_3 .c-Button {
+  position: absolute;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  left: auto;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  padding: 0.5rem;
+  background-color: transparent;
+  color: rgba(59, 73, 223, 0.1);
+  display: inline-block;
+  font: inherit;
+  text-align: center;
+  border: none;
+  overflow-wrap: normal;
+}
+.header .insideHeader .imgDev .imgDev_2 .imgDev_3 .c-Button:hover {
+  background-color: rgba(59, 73, 223, 0.1);
+  color: rgba(59, 73, 223, 0.1);
+  border-radius: 0.375rem rgba(59, 73, 223, 0.1);
+  cursor: pointer;
+}
+.header .insideHeader .logAccoNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  width: 14.5em;
+  gap: 3%;
+  margin-left: auto;
+}
+.header .insideHeader .logAccoNav .aLogIn {
+  text-align: center;
+  padding-top: 7px;
+  color: black;
+  text-decoration: none;
+  width: 27%;
+  height: 80%;
+}
+.header .insideHeader .logAccoNav .aLogIn:hover {
+  background-color: rgba(59, 73, 223, 0.1);
+  border: 1px solid rgba(59, 73, 223, 0.1);
+  border-radius: 0.375rem;
+  color: blue;
+  -webkit-text-decoration: underline blue;
+          text-decoration: underline blue;
+}
+.header .insideHeader .logAccoNav .aCreaAco {
+  text-decoration: none;
+  border: 1px solid rgb(59, 73, 223);
+  border-radius: 0.375rem;
+  color: rgb(59, 73, 223);
+  padding-top: 7px;
+  text-align: center;
+  height: 80%;
+  width: 67%;
+}
+.header .insideHeader .logAccoNav .aCreaAco:hover {
+  background-color: rgb(59, 73, 223);
+  -webkit-text-decoration: underline white;
+          text-decoration: underline white;
+  color: white;
+  border: 1px solid rgb(59, 73, 223);
 }
 
-.burguer {
-  margin: 8px;
-  display: block;
-}
-
-.logotype {
-  margin: 8px;
-}
-
-.searchInput {
-  margin: 8px;
-  font-size: 18px;
-  display: none;
-}
-
-@media screen and (min-width: 768px) {
-  .burguer {
-    display: none;
-  }
-  .buttonLogIn {
-    display: block;
-  }
-  .searchInput {
-    display: block;
-  }
-  .lupita {
-    display: none;
-  }
-}
 .containerMain {
   display: flex;
   justify-content: center;
@@ -143,6 +170,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .inputInside {
+    display: block;
+  }
   .containerMain {
     display: flex;
     justify-content: center;
@@ -164,25 +194,92 @@
   }
 }
 @media screen and (min-width: 1440px) {
+  .inputInside {
+    display: block;
+  }
   .containerMain {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
   }
   .containerMain .aside {
-    margin-left: 20px;
+    margin-left: 70px;
     height: 100vh;
     max-width: 275px;
     display: block;
   }
   .containerMain .aside2 {
+    margin-right: 70px;
     height: 100vh;
-    max-width: 430px;
+    max-width: 400px;
     display: block;
   }
   .containerMain .mainContainer {
     height: 100vh;
-    max-width: 45em;
+    max-width: 39em;
+  }
+  .emojisAndComments {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 10px;
+  }
+  .emojisAndComments .emojis {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+    height: 40px;
+    width: 167px;
+  }
+  .emojisAndComments .emojis .insideEmoji {
+    margin: -6px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(245, 245, 245);
+  }
+  .emojisAndComments .emojis .reactionCounter {
+    margin-left: 0.5rem;
+  }
+  .emojisAndComments .emojis .reactionCounter .reactionCounter_2 {
+    display: block;
+  }
+  .emojisAndComments .emojis:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.035);
+    border-radius: 0.375rem;
+  }
+  .emojisAndComments .commentsPostOneDiv {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+    height: 40px;
+    width: 120px;
+  }
+  .emojisAndComments .commentsPostOneDiv .commentsPostOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+  }
+  .emojisAndComments .commentsPostOneDiv .commentsPostOne .crayons-icon {
+    margin-right: 5px;
+  }
+  .emojisAndComments .commentsPostOneDiv .commentsPostOne .commentsPostOneBottom {
+    display: inline;
+    font-size: 0.9em;
+    display: block;
+  }
+  .emojisAndComments .commentsPostOneDiv:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.035);
+    border-radius: 0.375rem;
   }
 }
 html {
@@ -202,6 +299,7 @@ html {
   gap: 1em;
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 1px rgba(40, 44, 45, 0.05);
   min-height: 15em;
   width: 95%;
   padding: 10px;
@@ -366,16 +464,16 @@ html {
 
 .containerAside_2 {
   display: flex;
-  justify-content: flex-start;
   flex-direction: column;
-  align-items: baseline;
+  align-content: flex-end;
   gap: 1em;
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
-  min-height: 20em;
-  width: 100%;
-  margin: 20px 10px;
+  box-shadow: 0 0 1px rgba(40, 44, 45, 0.05);
+  min-height: 15em;
+  width: 95%;
   padding: 10px;
+  margin-top: 20px;
 }
 .containerAside_2 img {
   margin-left: 25px;
@@ -525,7 +623,7 @@ html {
   background-color: white;
   border: rgb(228, 225, 228) 2px solid;
   border-radius: 10px;
-  padding: 20px;
+  padding-bottom: 20px;
   width: 100%;
   margin-bottom: 10px;
 }
@@ -544,7 +642,6 @@ html {
   background-color: transparent;
 }
 .navMainContent li:hover {
-  padding: 12px;
   background-color: rgb(255, 255, 255);
   border-radius: 15%;
   color: rgb(57, 57, 228);
@@ -556,16 +653,20 @@ html {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  padding: 20px;
 }
 .imagePostOne .bigImage {
-  border-radius: 10px;
+  padding: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .postOneTop {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 9px;
+  margin-bottom: 8px;
+  margin-left: 20px;
   /*margin-bottom: 20px;*/
 }
 
@@ -576,6 +677,10 @@ html {
   flex-direction: row;
   font-size: 20px;
   gap: 10px;
+}
+.authorPostOne .image .authorPostOne_href imh {
+  height: 32px;
+  width: 32px;
 }
 .authorPostOne .avatarImagePostOne {
   display: inline-block;
@@ -597,18 +702,22 @@ html {
 }
 
 .postOneBottom {
-  padding-left: 50px;
+  padding-left: 40px;
 }
-.postOneBottom .mainContentTitle {
-  padding: 15px;
+.postOneBottom .mainContentTitle h2 {
+  font-size: 1.25rem;
+}
+.postOneBottom .mainContentTitle h2 a {
   text-align: justify;
+  text-decoration: none;
+  color: black;
 }
-.postOneBottom .mainContentTitle:hover {
+.postOneBottom .mainContentTitle h2 a:hover {
   color: rgb(57, 57, 228);
   cursor: pointer;
 }
 .postOneBottom .tagsPostOne {
-  margin-bottom: 25px;
+  margin-bottom: 17px;
   margin-left: 10px;
   font-size: small;
   display: flex;
@@ -617,55 +726,90 @@ html {
   color: rgb(59, 57, 57);
   text-decoration: none;
 }
-.postOneBottom .tagsPostOne .news:hover,
-.postOneBottom .tagsPostOne .beginners:hover,
-.postOneBottom .tagsPostOne .tutorial:hover,
-.postOneBottom .tagsPostOne .devops:hover {
-  background-color: rgb(238, 232, 232);
+.postOneBottom .tagsPostOne .news {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  height: 30px;
+  min-width: 70px;
+  text-decoration: none;
+  color: black;
+}
+.postOneBottom .tagsPostOne .news:hover {
+  background-color: rgba(86, 39, 101, 0.1);
   border-radius: 4px;
-  padding: 7px;
+  border: 1px solid #2d2a2a;
 }
 
 .engagementsPostOne {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: medium;
-  line-height: 10px;
+  font-size: 0.875rem;
 }
 .engagementsPostOne .emojisAndComments {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   margin-left: 10px;
 }
 .engagementsPostOne .emojisAndComments .emojis {
   display: flex;
   align-items: center;
-  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  margin-left: 0.5rem;
+  height: 40px;
+  width: 167px;
 }
-.engagementsPostOne .emojisAndComments .emojis .reactionLike,
-.engagementsPostOne .emojisAndComments .emojis .reactionUnicorn,
-.engagementsPostOne .emojisAndComments .emojis .reactionExplodingHead,
-.engagementsPostOne .emojisAndComments .emojis .reactionRaisedHands,
-.engagementsPostOne .emojisAndComments .emojis .reactionFire {
-  padding: 3px;
-  background-color: rgb(238, 232, 232);
+.engagementsPostOne .emojisAndComments .emojis .insideEmoji {
+  margin: -6px;
+  height: 25px;
+  width: 25px;
   border-radius: 50%;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(245, 245, 245);
 }
-.engagementsPostOne .emojisAndComments .reactionCounter {
-  margin-left: 1em;
-  display: inline-flex;
+.engagementsPostOne .emojisAndComments .emojis .reactionCounter {
+  margin-left: 0.5rem;
+}
+.engagementsPostOne .emojisAndComments .emojis .reactionCounter .reactionCounter_2 {
+  display: none;
+}
+.engagementsPostOne .emojisAndComments .emojis:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.035);
+  border-radius: 0.375rem;
+}
+.engagementsPostOne .emojisAndComments .commentsPostOneDiv {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-left: 0.5rem;
+  height: 40px;
+  width: 40px;
+}
+.engagementsPostOne .emojisAndComments .commentsPostOneDiv .commentsPostOne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 0.9em;
 }
-.engagementsPostOne .emojisAndComments .commentsPostOne {
-  padding-left: 25px;
-  font-size: 0.9em;
-}
-.engagementsPostOne .emojisAndComments .commentsPostOne .crayons-icon {
+.engagementsPostOne .emojisAndComments .commentsPostOneDiv .commentsPostOne .crayons-icon {
   margin-right: 5px;
 }
-.engagementsPostOne .emojisAndComments .commentsPostOne .commentsPostOneBottom {
+.engagementsPostOne .emojisAndComments .commentsPostOneDiv .commentsPostOne .commentsPostOneBottom {
   display: inline;
   font-size: 0.9em;
+  display: none;
+}
+.engagementsPostOne .emojisAndComments .commentsPostOneDiv:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.035);
+  border-radius: 0.375rem;
 }
 .engagementsPostOne .savePostOneBottom {
   display: flex;
